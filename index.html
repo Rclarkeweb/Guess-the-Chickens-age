@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Guess the Chicken's age</title>
+
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap" rel="stylesheet">
+    </head>
+        <body>
+                <div class="card">
+                    <h1>Guess Clucks age!</h1>
+                    <img src="shine-white-chicken.png" width="auto" height="150" alt="White chicken graphic"/>
+                    <p>He is aged between 1 and 16 and its up to you to guess his age!</p>
+                    <label for="guessTheAge">Enter a age between 1 and 16</label><br/><br/>
+                    <input type="number" id="guessTheAge" />
+                    <div class="btn" onclick="check()">See if you are right!</div>
+
+                    <p id="displayAnswer"></p>
+                    <div id="playAgain" class="again" style="display: none;">
+                        <input type="button" class="btn" value="Play Again!" onClick="window.location.reload(true)">
+                    </div>
+                    
+                    <p id="attribution">Illustration by <a href="https://icons8.com/illustrations/author/zD2oqC8lLBBA">Icons 8</a> 
+                        from <a href="https://icons8.com/illustrations">Ouch!</a></p>
+                </div>
+
+            <script src="main.js"></script>
+        </body>
+</html>

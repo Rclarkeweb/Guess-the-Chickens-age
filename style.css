@@ -1,0 +1,55 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+body {
+    background-color: beige;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card {
+    background-color: beige;
+    text-align: center;
+    min-width: 75%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 30%;
+    color: #fff;
+    border-color: blueviolet;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    overflow-wrap: break-word;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    overflow-wrap: break-word;
+}
+
+#attribution {
+    font-size: 10px;
+    color: #333;
+}
+
+a {
+    color:#333;
+    font-style: none;
+}
