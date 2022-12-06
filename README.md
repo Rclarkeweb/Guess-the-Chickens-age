@@ -8,7 +8,7 @@ This is a simple web page featuring HTML, CSS and JavaScript. Its functionality 
 
 ## See it live
 
-You can view the game here.
+You can [view the game here](https://rclarkeweb.github.io/Guess-the-Chickens-age/).
 
 ### Attribution
 
