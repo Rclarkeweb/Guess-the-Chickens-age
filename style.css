@@ -53,3 +53,12 @@ a {
     color:#333;
     font-style: none;
 }
+
+#guessContainer {
+    padding: 15px;
+}
+
+
+#guessMsg {
+    padding: 15px;
+}

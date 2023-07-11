@@ -16,18 +16,22 @@
                 <div class="card">
                     <h1>Guess Clucks age!</h1>
                     <img src="shine-white-chicken.png" width="auto" height="150" alt="White chicken graphic"/>
-                    <p>He is aged between 1 and 16 and its up to you to guess his age!</p>
-                    <label for="guessTheAge">Enter a age between 1 and 16</label><br/><br/>
-                    <input type="number" id="guessTheAge" />
-                    <div class="btn" onclick="check()">See if you are right!</div>
 
-                    <p id="displayAnswer"></p>
+                    <div id="guessContainer">
+                        <p>He is aged between 1 and 10 and its up to you to guess his age!</p>
+                        <label for="guessTheAge">Enter a age between 1 and 10</label><br/><br/>
+                        <input type="number" id="guessTheAge" />
+                        <div class="btn" id="guessBtn" onclick="check()">See if you are right!</div>
+                    </div>
+
+                    <div>
+                        <p id="guessMsg"></p>
+                    </div>
+
                     <div id="playAgain" class="again" style="display: none;">
                         <input type="button" class="btn" value="Play Again!" onClick="window.location.reload(true)">
                     </div>
-                    
-                    <p id="attribution">Illustration by <a href="https://icons8.com/illustrations/author/zD2oqC8lLBBA">Icons 8</a> 
-                        from <a href="https://icons8.com/illustrations">Ouch!</a></p>
+
                 </div>
 
             <script src="main.js"></script>
